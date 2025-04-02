@@ -11,20 +11,17 @@
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
-
         <LinearLayout
             android:orientation="vertical"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:padding="8dp">
-
             <ImageView
                 android:id="@+id/itemsp_image"
                 android:src="@drawable/ic_media_24"
                 android:layout_width="match_parent"
                 android:layout_height="150dp"
                 android:scaleType="centerCrop"/>
-
             <TextView
                 android:id="@+id/itemsp_ten"
                 android:text="Laptop"
@@ -36,7 +33,6 @@
                 android:ellipsize="end"
                 android:maxLines="2"
                 android:paddingTop="8dp"/>
-
             <TextView
                 android:id="@+id/itemsp_gia"
                 android:text="Giá: 100,000đ"
@@ -50,7 +46,6 @@
                 android:maxLines="1"
                 android:paddingTop="4dp"/>
         </LinearLayout>
-
         <ImageView
             android:src="@drawable/iconnew_h512"
             android:layout_gravity="top|right"
@@ -58,5 +53,4 @@
             android:layout_height="30dp"
             android:padding="4dp"/>
     </FrameLayout>
-
 </androidx.cardview.widget.CardView>
